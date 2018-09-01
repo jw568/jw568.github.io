@@ -6,6 +6,292 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+    
+/* Style the top navigation bar */
+.navbar {
+    overflow: inherit;
+    position:fixed;
+    top:0;
+    width:100%;
+    display:block;
+    transition: top 0.3s;
+    padding-top:0px;
+}
+    
+/* Style the navigation bar links */
+.navbar a {
+    float: right;
+    display: block;
+    color: #696969;
+    text-align: center;
+    padding: 27px 19px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #696969;
+    color: #FFE5F2;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 288px;
+    text-align: center;
+    background: #FFE5F2;
+    color: dimgray;
+}
+    
+/* About me */
+.aboutme {
+    margin:0px;
+    padding-top: 90px;
+    padding-bottom:90px;
+    background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
+    color:white;
+}
+
+.aboutme h2{
+     padding-bottom:40px;   
+}
+    
+/* Customize H1 */
+h1 {
+    font-size: 80px;
+    margin:0;
+    padding:7px;
+}
+ 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em;
+    padding: 0;
+}
+   
+/* Customize H2 */
+h2{
+    text-align:center;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}   
+    
+/* Customize H3*/
+h3{
+    font-size: 30px; 
+    font-weight: normal;
+    margin: 0;
+    padding: 12px;
+}
+
+/* CSS for list */
+ul{
+    display: inline-block;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-bottom: 0 em;
+    margin-left: 0;
+    margin-right: 0px;
+    font-size: 20px;
+    text-align: left; 
+}
+
+/* Column container */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    background: #;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 45%; /* IE10 */
+    flex: 45%;
+    padding: 20px;
+}
+
+/* Image of Me */
+.side img{
+    padding-left: 180px; 
+    padding-top: 25px;
+}
+
+/* Main column */
+.main {   
+    -ms-flex: 55%; /* IE10 */
+    flex: 55%;
+    padding: 20px;
+    padding-left: 56px;
+}
+
+/* CSS for Projects Section */
+.projects {
+    padding-top:80px;
+    padding-bottom:150px;
+    text-align: center;
+    background: tan;
+    color:white;
+}
+    
+.projects h3{
+    padding-top: 40px;
+}
+    
+.blog {
+    background-image:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D8qa-2E/turquoise-lake-water-green-nature-background-resort-park_bdzizqio8__F0000.png");
+    padding-top:350px;
+    padding-bottom:350px; 
+    color:white;
+}
+
+/* CSS for Contact Section */
+.contact{
+    text-align:center;
+    margin:0;
+    padding-top:100px;
+    padding-bottom: 15px;
+    background-color: white;
+    color:black;
+}
+
+/* Column container */
+.informationsplit {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+.informationsplit a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:20px 0;
+    margin-top:35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.informationsplit a:hover {
+    background-color: black;
+    color: white;
+    box-sizing:border-box;
+    border-radius:20px;
+}
+
+.alculator {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding-left:40px;
+    padding-top:80px;
+}
+    
+.tabs {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding: 20px;  
+    padding-right:40px;
+}
+
+/* Create two equal columns that sits next to each other */
+/* Sidebar/left column */
+.phone {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding: 20px;
+    padding-left:40px;
+}
+    
+.email {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding: 20px;  
+    padding-right:40px;
+}
+    
+legend{
+    margin:40px;
+}
+
+input{
+    width:700px;
+    padding:12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-width:thin;
+}
+    
+input:focus{
+    border-width: medium 5px;
+    border-color: black;
+}
+    
+textarea{
+    text-align:left;
+    padding:12px 20px;
+    margin: 10px 0;
+    height:240px;
+    width:700px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    word-wrap: break-word;
+}
+
+textarea:focus{
+    border-width: medium 5px;
+    border-color: black;    
+}
+
+input.submit:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+    
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+    
 <body>
 
 <!-- Navigation Bar -->
