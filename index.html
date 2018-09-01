@@ -1,1 +1,120 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar" id="navbar">
+    <a href="#CONTACT" id="contactlink">CONTACT</a>
+    <a href="#BLOG" id="bloglink">BLOG</a>
+    <a href="#PROJECTS" id="projectslink">PROJECTS</a>
+    <a href="#ABOUT" id="aboutlink">ABOUT</a>
+    <a href="#HOME" id="homelink">HOME</a>
+</div>
+
+<!-- Header Section -->
+<div class="header" id="HOME">
+    <hr/>
+    <h1>JASON WANG</h1>
+    <hr/>
+</div>
+
+<!-- About Me Section -->
+<div class="aboutme" id="ABOUT">
+    <h2>About Me</h2>
+    <div class="row">
+        <div class="side">
+            <img src = "https://i.imgur.com/8MqtawP.png" alt = "photo">
+        </div>
+        <div class="main">
+        <h3><b>Education:</b> Duke University</h3>
+        <h3><b>Major:</b> Bachelor of Science in Computer Science</h3>
+        <h3><b>Minor:</b> Economics</h3>
+        <h3><b>Certificate:</b> Innovation and Entrepreneurship</h3>
+        <h3><b>Technical Skills:</b> </h3>
+        <ul>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>  
+            <li>VBA</li>
+            <li>Microsoft Office</li>
+        </ul>
+  </div>
+</div>
+</div>
+
+<!-- Projects Section -->
+<div class="projects" id="PROJECTS">
+  <h2>Personal Projects</h2>
+  <div class="informationsplit">
+    <div class="alculator">
+        <img src="https://i.imgur.com/K8n7T2B.png" alt="alculator" height=300>
+        <h3>Alculator</h3>
+        <h3>Coming Soon</h3>
+    </div>
+    <div class="tabs">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h3>Tabs</h3>
+        <h3>Coming Soon</h3>
+    </div>
+  </div>
+</div>
+  
+<!-- Blog Section -->
+<div class="blog" id="BLOG"> 
+    <h2>Blog</h2>
+</div>
+
+<!-- Contact me Form -->
+<div class="contact" id="CONTACT">
+    <h2>Contact Me</h2><br><br><br><br>
+    <div class = "informationsplit">       
+        <div class = "phone">
+            <img src = "https://png.icons8.com/metro/1600/phone.png" alt = "phone" height = 200>
+            <a href="tel:917-515-1798">917-515-1798</a>
+        </div>
+        <div class = "email">
+            <img src = "http://pkbalkan.org/wp-content/uploads/2017/12/Email-pictogram.png" alt = "email" height = 200>
+            <a href="mailto:jason.wang529@gmail.com">jason.wang529@gmail.com</a>
+        </div>
+    </div>
+    <br><br>
+    <form>
+        <fieldset>
+        <legend>Form:</legend>
+        Name<br> 
+        <input type="text" name="first name"><br>
+        Email<br>
+        <input type="email" name="email"><br>
+        Subject<br>
+        <input type="text" name="subject"><br>
+        Message<br> 
+        <textarea></textarea><br>
+        <input type="submit" class="submit">
+        </fieldset>
+    </form>
+</div>
+
+
+<script>
+/* Hides the Navigation Bar*/
+var prevPos = window.pageYOffset;
+window.onscroll = function(){
+var currentPos = window.pageYOffset;
+    if(prevPos > currentPos){
+        document.getElementById("navbar").style.top="0";
+    }else{
+        document.getElementById("navbar").style.top="-50px";
+    }
+    prevPos=currentPos;   
+}
+</script>
+    
+</body>
+</html>
+
