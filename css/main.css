@@ -106,6 +106,7 @@ ul{
 
 /* Column container */
 .row {  
+    text-align: center;
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
