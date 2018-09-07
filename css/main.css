@@ -100,9 +100,14 @@ h3{
 
 /* CSS for list */
 ul{
-    display: inline;
+    display: inline-block;
     list-style-type: disc;
+    margin-top: 0;
+    margin-bottom: 0 em;
+    margin-left: 0;
+    margin-right: 0px;
     font-size: 20px;
+    text-align: left; 
 }
 
 /* CSS for Projects Section */
