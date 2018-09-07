@@ -53,8 +53,8 @@ body {
     
 /* About me */
 .aboutme {
+    margin:0 auto;
     text-align:center;
-    margin:0;
     padding-top: 90px;
     padding-bottom:90px;
     background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
