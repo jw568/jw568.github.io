@@ -53,12 +53,12 @@ body {
     
 /* About me */
 .aboutme {
+    text-align:center;
     margin:0px;
     padding-top: 90px;
     padding-bottom:90px;
     background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
     color:white;
-    text-align: center;
 }
 
 .aboutme h2{
