@@ -58,6 +58,7 @@ body {
     padding-bottom:90px;
     background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
     color:white;
+    text-align: center;
 }
 
 .aboutme h2{
@@ -118,26 +119,10 @@ ul{
     background: #;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-    -ms-flex: 45%; /* IE10 */
-    flex: 45%;
-    padding: 20px;
-}
-
 /* Image of Me */
-.side img{
-    padding-left: 180px; 
+.row img{
+    padding-left: 0px; 
     padding-top: 25px;
-}
-
-/* Main column */
-.main {   
-    -ms-flex: 55%; /* IE10 */
-    flex: 55%;
-    padding: 20px;
-    padding-left: 56px;
 }
 
 /* CSS for Projects Section */
