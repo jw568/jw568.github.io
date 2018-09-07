@@ -54,7 +54,7 @@ body {
 /* About me */
 .aboutme {
     text-align:left;
-    margin:0px;
+    margin:0;
     padding-top: 90px;
     padding-bottom:90px;
     background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
@@ -103,9 +103,9 @@ ul{
     display: inline-block;
     list-style-type: disc;
     margin-top: 0;
-    margin-bottom: 0 em;
+    margin-bottom: 0;
     margin-left: 0;
-    margin-right: 0px;
+    margin-right: 0;
     font-size: 20px;
     text-align: left; 
 }
@@ -190,7 +190,7 @@ ul{
 }
     
 legend{
-    margin:40px;
+    margin:40\;
 }
 
 input{
