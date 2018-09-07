@@ -110,21 +110,6 @@ ul{
     text-align: left; 
 }
 
-/* Column container */
-.row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    background: #;
-}
-
-/* Image of Me */
-.row img{
-    padding-left: 0px; 
-    padding-top: 25px;
-}
-
 /* CSS for Projects Section */
 .projects {
     padding-top:80px;
