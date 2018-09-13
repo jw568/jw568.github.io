@@ -46,7 +46,29 @@ body {
     padding-top:300px;
     padding-bottom:300px;
 }
-    
+
+/* Create two equal columns that sit next to each other */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* git column */
+.git {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding: 10px;
+}
+
+/* linkedin column */
+.linkedin {   
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    padding: 10px;
+}
+
 /* About me */
 .aboutme {
     margin:0 auto;
