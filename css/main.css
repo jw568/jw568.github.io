@@ -39,9 +39,12 @@ body {
 
 /* Header/logo Title */
 .header {
+    width:100%
     text-align: center;
     background: #FFE5F2;
     color: dimgray;
+    padding-top:25%;
+    padding-bottom:25%;
 }
     
 /* About me */
