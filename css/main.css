@@ -51,20 +51,18 @@ body {
 .row {  
     display: flex;
     flex-wrap: wrap;
-    /*display: -ms-flexbox; IE10 */
-    /*-ms-flex-wrap: wrap; IE10 */
 }
 
 /* git column */
 .git {
+    padding-left:30%;
     flex-basis: 50%;
-    /*-ms-flex: 50%;*/
 }
 
 /* linkedin column */
 .linkedin {   
+    padding-right:30%;
     flex-basis: 50%;
-    /*-ms-flex: 50%;*/
 }
 
 /* About me */
