@@ -43,8 +43,8 @@ body {
     text-align: center;
     background: #FFE5F2;
     color: dimgray;
-    padding-top:25%;
-    padding-bottom:25%;
+    padding-top:50px;
+    padding-bottom:50px;
 }
     
 /* About me */
@@ -173,14 +173,12 @@ ul{
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
     padding: 20px;
-    padding-left:40px;
 }
     
 .email {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
     padding: 20px;  
-    padding-right:40px;
 }
     
 legend{
