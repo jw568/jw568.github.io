@@ -49,24 +49,22 @@ body {
 
 /* Create two equal columns that sit next to each other */
 .row {  
-    display: -ms-flexbox; /* IE10 */
+    /*display: -ms-flexbox; IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
+    /*-ms-flex-wrap: wrap; IE10
+    flex-wrap: wrap;*/
 }
 
 /* git column */
 .git {
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
-    padding: 10px;
+    /*-ms-flex: 50%;*/
+    flex-basis: 50%;
 }
 
 /* linkedin column */
 .linkedin {   
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
-    padding: 10px;
+    /*-ms-flex: 50%;*/
+    flex-basis: 50%;
 }
 
 /* About me */
