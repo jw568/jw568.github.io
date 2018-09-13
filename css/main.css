@@ -167,6 +167,10 @@ ul{
     padding: 20px;
 }
 
+.contact a {
+    font-size: 35px;
+}
+
 /* Create two equal columns that sits next to each other */
 /* Sidebar/left column */
 .phone {
