@@ -55,13 +55,13 @@ body {
 
 /* git column */
 .git {
-    margin-left:15%;
+    padding-left:15%;
     flex-basis: 50%;
 }
 
 /* linkedin column */
 .linkedin {   
-    margin-right:15%;
+    margin-right:0;
     flex-basis: 50%;
 }
 
