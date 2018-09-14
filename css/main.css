@@ -43,8 +43,8 @@ body {
     text-align:center;
     background: #FFE5F2;
     color: dimgray;
-    padding-top:300px;
-    padding-bottom:300px;
+    padding-top:100%;
+    padding-bottom:100%;
 }
 
 .row {  
