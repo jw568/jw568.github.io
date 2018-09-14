@@ -54,17 +54,17 @@ body {
 }
 
 .space {
-    flex-basis: 25%;
+    flex-basis: 35%;
 }
 
 /* git column */
 .git {
-    flex-basis: 25%;
+    flex-basis: 15%;
 }
 
 /* linkedin column */
 .linkedin {   
-    flex-basis: 25%;
+    flex-basis: 15%;
 }
 
 /* About me */
