@@ -43,8 +43,8 @@ body {
     text-align:center;
     background: #FFE5F2;
     color: dimgray;
-    padding-top:100%;
-    padding-bottom:100%;
+    padding-top:75%;
+    padding-bottom:75%;
 }
 
 .row {  
@@ -53,17 +53,17 @@ body {
 }
 
 .space {
-    flex-basis: 40%;
+    flex-basis: 44%;
 }
 
 /* git column */
 .git {
-    flex-basis: 10%;
+    flex-basis: 6%;
 }
 
 /* linkedin column */
 .linkedin {   
-    flex-basis: 10%;
+    flex-basis: 6%;
 }
 
 /* About me */
