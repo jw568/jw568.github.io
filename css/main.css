@@ -47,7 +47,6 @@ body {
     padding-bottom:300px;
 }
 
-/* Create two equal columns that sit next to each other */
 .row {  
     display: flex;
     flex-wrap: wrap;
@@ -152,9 +151,7 @@ ul{
 
 /* Column container */
 .informationsplit {  
-    display: -ms-flexbox; /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
 }
 
@@ -176,14 +173,12 @@ ul{
 }
 
 .alculator {
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
+    flex-basis: 50%;
     padding: 20px;
 }
     
 .tabs {
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
+    flex-basis: 50%;
     padding: 20px;
 }
 
@@ -194,14 +189,12 @@ ul{
 /* Create two equal columns that sits next to each other */
 /* Sidebar/left column */
 .phone {
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
+    flex-basis: 50%;
     padding: 20px;
 }
     
 .email {
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
+    flex-basis: 50%;
     padding: 20px;  
 }
 
