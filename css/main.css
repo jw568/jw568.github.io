@@ -43,8 +43,8 @@ body {
     text-align:center;
     background: #FFE5F2;
     color: dimgray;
-    padding-top:40%;
-    padding-bottom:40%;
+    padding-top:25%;
+    padding-bottom:25%;
 }
 
 .row {  
@@ -199,7 +199,7 @@ ul{
 }
 
 input{
-    width:65%;
+    width:60%;
     padding:12px 20px;
     margin: 10px 0;
     box-sizing: border-box;
@@ -221,7 +221,7 @@ textarea{
     padding:12px 20px;
     margin: 10px 0;
     height:240px;
-    width:80%;
+    width:60%;
     font-size: 20px;
     box-sizing: border-box;
     border-color: black;
