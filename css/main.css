@@ -159,7 +159,7 @@ ul{
     display: block;
     color: black;
     text-align: center;
-    padding:20px 0;
+    padding:12px 0;
     margin-top:35px;
     text-decoration: none;
     font-size: 30px;
@@ -169,17 +169,17 @@ ul{
     background-color: black;
     color: white;
     box-sizing:border-box;
-    border-radius:20px;
+    border-radius:12px;
 }
 
 .alculator {
     flex-basis: 50%;
-    padding: 20px;
+    padding:0;
 }
     
 .tabs {
     flex-basis: 50%;
-    padding: 20px;
+    padding:0;
 }
 
 .contact a {
@@ -190,12 +190,12 @@ ul{
 /* Sidebar/left column */
 .phone {
     flex-basis: 50%;
-    padding: 20px;
+    padding:0;
 }
     
 .email {
     flex-basis: 50%;
-    padding: 20px;  
+    padding:0;  
 }
 
 input{
