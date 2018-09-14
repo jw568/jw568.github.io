@@ -53,16 +53,18 @@ body {
     flex-wrap: wrap;
 }
 
+.space {
+    flex-basis: 25%;
+}
+
 /* git column */
 .git {
-    padding-left:5%;
-    flex-basis: 50%;
+    flex-basis: 25%;
 }
 
 /* linkedin column */
 .linkedin {   
-    padding-right:5%;
-    flex-basis: 50%;
+    flex-basis: 25%;
 }
 
 /* About me */
