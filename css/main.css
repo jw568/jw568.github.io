@@ -127,6 +127,7 @@ ul{
 
 /* CSS for Projects Section */
 .projects {
+    width:100%;
     padding-top:80px;
     padding-bottom:150px;
     text-align: center;
@@ -141,6 +142,7 @@ ul{
 
 /* CSS for Contact Section */
 .contact{
+    width: 100%;
     text-align:center;
     margin:0;
     padding-top:100px;
@@ -173,12 +175,12 @@ ul{
 }
 
 .alculator {
-    flex-basis: 50%;
+    flex-basis: 35%;
     text-align:center;
 }
     
 .tabs {
-    flex-basis: 50%;
+    flex-basis: 35%;
     text-align:center;
 }
 
@@ -188,13 +190,17 @@ ul{
 
 /* Create two equal columns that sits next to each other */
 /* Sidebar/left column */
+.space1 {
+    flex-basis: 15%;
+}
+
 .phone {
-    flex-basis: 50%;
+    flex-basis: 35%;
     text-align:center;
 }
     
 .email {
-    flex-basis: 50%;
+    flex-basis: 35%;
     text-align:center;
 }
 
