@@ -176,12 +176,10 @@ ul{
 
 .alculator {
     flex-basis: 29%;
-    text-align:center;
 }
     
 .tabs {
     flex-basis: 29%;
-    text-align:center;
 }
 
 .contact a {
@@ -196,12 +194,10 @@ ul{
 
 .phone {
     flex-basis: 29%;
-    text-align:center;
 }
     
 .email {
     flex-basis: 29%;
-    text-align:center;
 }
 
 input{
