@@ -155,6 +155,8 @@ ul{
 .informationsplit {  
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .informationsplit a {
@@ -175,29 +177,27 @@ ul{
 }
 
 .alculator {
-    flex-basis: 38%;
+    flex-basis: 50%;
 }
     
 .tabs {
-    flex-basis: 38%;
+    flex-basis: 50%;
 }
 
 .contact a {
     font-size: 20px;
 }
 
-/* Create two equal columns that sits next to each other */
-/* Sidebar/left column */
-.space1 {
+/* .space1 {
     flex-basis: 8%;
-}
+}*/
 
 .phone {
-    flex-basis: 38%;
+    flex-basis: 50%;
 }
     
 .email {
-    flex-basis: 38%;
+    flex-basis: 50%;
 }
 
 input{
