@@ -175,11 +175,11 @@ ul{
 }
 
 .alculator {
-    flex-basis: 32%;
+    flex-basis: 35%;
 }
     
 .tabs {
-    flex-basis: 32%;
+    flex-basis: 35%;
 }
 
 .contact a {
@@ -189,15 +189,15 @@ ul{
 /* Create two equal columns that sits next to each other */
 /* Sidebar/left column */
 .space1 {
-    flex-basis: 12%;
+    flex-basis: 10%;
 }
 
 .phone {
-    flex-basis: 32%;
+    flex-basis: 35%;
 }
     
 .email {
-    flex-basis: 32%;
+    flex-basis: 35%;
 }
 
 input{
