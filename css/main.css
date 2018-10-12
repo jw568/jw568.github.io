@@ -79,6 +79,21 @@ body {
 .aboutme h2{
      padding-bottom:40px;   
 }
+
+.aboutme a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.aboutme a:hover{
+    background-color: white;
+    color: black;
+    box-sizing:border-box;
+    border-radius:12px;
+}
     
 /* Customize H1 */
 h1 {
