@@ -1,0 +1,252 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    margin: 0;
+}
+    
+/* Style the top navigation bar */
+.navbar {
+    overflow: inherit;
+    position:fixed;
+    top:0;
+    width:100%;
+    display:block;
+    transition: top 0.3s;
+    padding-top:0px;
+}
+    
+/* Style the navigation bar links */
+.navbar a {
+    float: right;
+    display: block;
+    color: #696969;
+    text-align: center;
+    padding: 25px 17px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #696969;
+    color: #FFE5F2;
+}
+
+/* Header/logo Title */
+.header {
+    width:100%;
+    text-align:center;
+    background: #FFE5F2;
+    color: dimgray;
+    padding-top:13.5%;
+    padding-bottom:13.5%;
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space {
+    flex-basis: 44%;
+}
+
+/* git column */
+.git {
+    flex-basis: 6%;
+}
+
+/* linkedin column */
+.linkedin {   
+    flex-basis: 6%;
+}
+
+/* About me */
+.aboutme {
+    margin:0 auto;
+    text-align:center;
+    padding-top: 90px;
+    padding-bottom:90px;
+    background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
+    color:white;
+}
+
+.aboutme h2{
+     padding-bottom:40px;   
+}
+    
+/* Customize H1 */
+h1 {
+    font-size: 80px;
+    margin:0;
+    padding:7px;
+}
+ 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em;
+    padding: 0;
+}
+   
+/* Customize H2 */
+h2{
+    text-align:center;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}   
+    
+/* Customize H3*/
+h3{
+    font-size: 30px; 
+    font-weight: normal;
+    margin: 0;
+    padding: 12px;
+}
+
+/* CSS for list */
+ul{
+    display: inline-block;
+    list-style-type: disc;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 20px;
+    text-align: left; 
+}
+
+/* CSS for Projects Section */
+.projects {
+    width:100%;
+    padding-top:80px;
+    padding-bottom:150px;
+    text-align: center;
+    background: tan;
+    color:white;
+}
+    
+.projects h3{
+    padding-top: 40px;
+}
+    
+
+/* CSS for Contact Section */
+.contact{
+    width: 100%;
+    text-align:center;
+    margin:0;
+    padding-top:100px;
+    padding-bottom: 15px;
+    background-color: white;
+    color:black;
+}
+
+/* Column container */
+.informationsplit {  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationsplit a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:20px 12px;
+    margin-top:35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.informationsplit a:hover {
+    background-color: black;
+    color: white;
+    box-sizing:border-box;
+    border-radius:12px;
+}
+
+.alculator {
+    flex-basis: 50%;
+}
+    
+.tabs {
+    flex-basis: 50%;
+}
+
+.contact a {
+    font-size: 20px;
+}
+
+.phone {
+    flex-basis: 50%;
+}
+    
+.email {
+    flex-basis: 50%;
+}
+
+input{
+    width:60%;
+    padding:12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-width:thin;
+}
+    
+input:focus{
+    border-width: medium 5px;
+    border-color: black;
+}
+    
+textarea{
+    text-align:left;
+    padding:12px 20px;
+    margin: 10px 0;
+    height:240px;
+    width:60%;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    word-wrap: break-word;
+}
+
+textarea:focus{
+    border-width: medium 5px;
+    border-color: black;    
+}
+
+input.submit:hover{
+    background-color: black;
+    color:white;
+    cursor:pointer;
+}
+    
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+        justify-content: center; /* center items horizontally, in this case */
+        align-items: center;     /* center items vertically, in this case */
+    }
+}
+
+</style>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jason Wang</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- link to main stylesheet -->
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+    
+<body>
+
+<!-- Navigation Bar -->
+<div class="navbar" id="navbar">
+    <a href="#CONTACT" id="contactlink">CONTACT</a>
+    <a href="#PROJECTS" id="projectslink">PROJECTS</a>
+    <a href="#ABOUT" id="aboutlink">ABOUT</a>
+    <a href="#HOME" id="homelink">HOME</a>
+</div>
+
+<!-- Header Section -->
+<div class="header" id="HOME">
+    <hr/>
+    <h1>JASON</h1>
+    <h1>WANG</h1>
+    <div class="row">
+        <div class = "space">
+            <h3> </h3>
+        </div>
+        <div class = "git">
+            <a href="https://github.com/jw568">
+            <img src = "https://i.imgur.com/X1kNzZg.png" alt = "git" height=50>
+            </a>
+        </div>
+        <div class = "linkedin">
+            <a href="https://www.linkedin.com/in/jasonwang157/">
+            <img src = "https://i.imgur.com/xY0Tt7q.png" alt = "linkedin" height=50>
+            </a>
+        </div>
+        <h3> </h3>
+        <div class = "space">
+        </div>
+    </div>
+    <hr/>
+</div>
+
+<!-- About Me Section -->
+<div class="aboutme" id="ABOUT">
+    <h2>About Me</h2>
+    <img src = "https://i.imgur.com/8MqtawP.png" alt = "photo">
+    <h3><b>Education:</b> Duke University</h3>
+    <h3><b>Major:</b> Bachelor of Science in Computer Science and Statistics</h3>
+    <h3><b>Certificate:</b> Innovation and Entrepreneurship</h3>
+    <h3><b>Technical Skills:</b> </h3>
+    <ul>
+        <li>Java</li>
+        <li>C</li>
+        <li>Python</li>
+        <li>VBA</li>
+        <li>HTML/CSS</li>  
+        <li>JavaScript</li>
+        <li>Microsoft Office</li>
+    </ul>
+</div>
+
+<!-- Projects Section -->
+<div class="projects" id="PROJECTS">
+  <h2>Personal Projects</h2><br><br><br><br>
+  <div class="informationsplit">
+    <div class="alculator">
+        <a href="https://jw568.github.io/alculator/">
+        <img src="https://i.imgur.com/K8n7T2B.png" alt="alculator" height=250>
+        </a>
+        <h3>Alculator</h3>
+        <h3>Coming Soon</h3>
+    </div>
+    <div class="tabs">
+        <img src="https://i.imgur.com/kcCRTFh.png" alt="tabs" height=250>
+        <h3>Tabs</h3>
+        <h3>Coming Soon</h3>
+    </div>
+  </div>
+</div>
+
+<!-- Contact me Form -->
+<div class="contact" id="CONTACT">
+    <h2>Contact Me</h2><br><br><br><br>
+    <div class = "informationsplit">       
+        <div class = "phone">
+            <img src = "https://png.icons8.com/metro/1600/phone.png" alt = "phone" height = 200>
+            <a href="tel:917-515-1798">917-515-1798</a>
+        </div>
+        <div class = "email">
+            <img src = "http://pkbalkan.org/wp-content/uploads/2017/12/Email-pictogram.png" alt = "email" height = 200>
+            <a href="mailto:jason.wang529@gmail.com">jason.wang529@gmail.com</a>
+        </div>
+    </div>
+    <br><br>
+    <form>
+        Name<br> 
+        <input type="text" name="first name"><br>
+        Email<br>
+        <input type="email" name="email"><br>
+        Subject<br>
+        <input type="text" name="subject"><br>
+        Message<br> 
+        <textarea></textarea><br>
+        <input type="submit" class="submit">
+    </form>
+</div>
+
+
+<script>
+/* Hides the Navigation Bar*/
+var prevPos = window.pageYOffset;
+window.onscroll = function(){
+var currentPos = window.pageYOffset;
+    if(prevPos > currentPos){
+        document.getElementById("navbar").style.top="0";
+    }else{
+        document.getElementById("navbar").style.top="-75px";
+    }
+    prevPos=currentPos;   
+}
+</script>
+    
+</body>
+</html>
