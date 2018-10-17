@@ -74,7 +74,7 @@ body {
     padding-top: 90px;
     padding-bottom:90px;
     background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
     color:white;   
@@ -170,6 +170,32 @@ ul{
 .projects h3{
     padding-top: 40px;
 }
+
+/* Column container */
+.projectsplit {  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsplit a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:20px 12px;
+    margin-top:35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.alculator {
+    flex-basis: 50%;
+}
+    
+.tabs {
+    flex-basis: 50%;
+}
     
 
 /* CSS for Contact Section */
@@ -184,14 +210,14 @@ ul{
 }
 
 /* Column container */
-.informationsplit {  
+.contactsplit {  
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.informationsplit a {
+.contactsplit a {
     display: block;
     color: black;
     text-align: center;
@@ -201,19 +227,11 @@ ul{
     font-size: 30px;
 }
 
-.informationsplit a:hover {
+.contactsplit a:hover {
     background-color: black;
     color: white;
     box-sizing:border-box;
     border-radius:12px;
-}
-
-.alculator {
-    flex-basis: 50%;
-}
-    
-.tabs {
-    flex-basis: 50%;
 }
 
 .contact a {
