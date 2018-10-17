@@ -12,6 +12,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
     overflow: inherit;
+    color: #FFE5F2;
     position:fixed;
     top:0;
     width:100%;
@@ -73,7 +74,20 @@ body {
     padding-top: 90px;
     padding-bottom:90px;
     background-image: url(http://getwallpapers.com/wallpaper/full/5/0/1/657639.jpg);
-    color:white;
+    color:white;   
+}
+
+.aboutmesplit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutpicture {
+    flex-basis: 35%;
+}
+
+.aboutdescription {
+    flex-basis: 35%;
 }
 
 .aboutme h2{
@@ -146,7 +160,7 @@ ul{
     padding-top:80px;
     padding-bottom:150px;
     text-align: center;
-    background: tan;
+    background-image: url(https://images5.alphacoders.com/456/456536.jpg);
     color:white;
 }
     
