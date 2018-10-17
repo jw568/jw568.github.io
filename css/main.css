@@ -77,19 +77,6 @@ body {
     color:white;   
 }
 
-.aboutmesplit {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.aboutpicture {
-    flex-basis: 35%;
-}
-
-.aboutdescription {
-    flex-basis: 65%;
-}
-
 .aboutme h2{
      padding-bottom:40px;   
 }
