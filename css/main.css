@@ -234,16 +234,12 @@ ul{
     border-radius:12px;
 }
 
-.space1 {
-    flex-basis: 25%;
-}
-
 .phone {
-    flex-basis: 25%;
+    flex-basis: 50%;
 }
     
 .email {
-    flex-basis: 25%;
+    flex-basis: 50%;
 }
 
 input{
