@@ -71,10 +71,10 @@ body {
 .aboutme {
     margin:0 auto;
     text-align:center;
-    padding-top: 90px;
-    padding-bottom:90px;
     background: #FFE5F2;
     color:dimgray;   
+    padding-top: 90px;
+    padding-bottom:90px;
 }
 
 .aboutme h2{
